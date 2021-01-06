@@ -44,7 +44,7 @@
 				<!-- <td><?=$isi->aksi; ?></td>  -->
 				<td>
 					<a href="delete.php?nip=<?php echo $isi->nip; ?>"
-					class="btn btn-danger">Del</a>
+					class="btn btn-danger">Delete</a>
 
 					<a href="update.php?url_nip=<?php echo $isi->nip; ?>"
 					class="btn btn-warning">Edit</a>
