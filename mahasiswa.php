@@ -9,6 +9,7 @@
 	<div class="container">
 		<div class="alert" style="text-align : center"><h4>Selamat Datang di Website Sistem Informasi Mahasiswa Universitas Bumigora <br><br><img src="ubg.png" alt="ubg" style="width:200px;height:200px;"></h4></div>
 
+
 		<table class="table table-bordered" style="text-align: center; ">
 			
 		
@@ -20,8 +21,7 @@
 					<th>Nama</th>
 					<th>Prodi</th>
 					<th>Alamat</th>
-
-					<!-- <th>Aksi</th> -->
+					<th>Aksi</th>
 					<!-- <th>Aksi</th> -->
 				</tr>
 			</thead>
@@ -45,13 +45,14 @@
 				<td><?= $isi->nama_mahasiswa; ?></td>
 				<td><?= $isi->prodi; ?></td>
 				<td><?= $isi->alamat; ?></td>
-
-
 				<!-- <td><?=$isi->aksi; ?></td> -->
-				<!-- <td>
-					<a href=""class="btn btn-danger">Delete</a>
-					<a href=""class="btn btn-warning">Edit</a>
-				</td> -->
+				<td>
+				<a href="delete_m.php?nim=<?php echo $isi->nim; ?>"
+					class="btn btn-danger">Delete</a>
+
+					<a href="update_mahasiswa.php?url_nim=<?php echo $isi->nim; ?>"
+					class="btn btn-warning">Edit</a>
+				</td>
 				<!-- <td><?=$isi->aksi; ?></td> -->
 				</tr>
 
@@ -61,8 +62,8 @@
 			</tbody>
 
 		</table>
-			<a href=""class="btn btn-danger">Delete</a> 
-			<a href=""class="btn btn-warning">Upload</a>
+			<a href="create_m.php" class="btn btn-info">Tambah Data </a>
+			<a href="index.php" class="btn btn-info">Data Dosen </a>
 	</div>
 <br><br>
 	<marquee><i><p>@pandhudip-universitas_bumigora-pemrograman_web</i></p></marquee>
