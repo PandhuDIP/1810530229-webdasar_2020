@@ -14,7 +14,7 @@
 			
 		
 			<thead>
-				<td colspan="5" style="text-align: center; background-color: blue;color: white"><b>Informasi Umum Data Mahasiswa</b></td>
+				<td colspan="6" style="text-align: center; background-color: blue;color: white"><b>Informasi Umum Data Mahasiswa</b></td>
 				<tr style="text-align: center" bgcolor="grey">
 					<th>No</th>
 					<th>NIM</th>
@@ -22,7 +22,6 @@
 					<th>Prodi</th>
 					<th>Alamat</th>
 					<th>Aksi</th>
-					<!-- <th>Aksi</th> -->
 				</tr>
 			</thead>
 			

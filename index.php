@@ -14,6 +14,7 @@
 		
 		<table class="table table-bordered">
 			<thead>
+			<td colspan="6" style="text-align: center; background-color: blue;color: white"><b>Informasi Umum Data Dosen</b></td>
 				<tr style="text-align: center" bgcolor="grey">
 					<th>No</th>
 					<th>NIP</th>
@@ -34,7 +35,7 @@
 					# code...
 				?>
 
-				<tr bgcolor="white">
+				<tr style="text-align: center" bgcolor="white">
 
 				<td><?=$no++; ?> </td>
 				<td><?=$isi->nip; ?></td>
